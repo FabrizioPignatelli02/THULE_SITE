@@ -1,0 +1,193 @@
+/*ELEMENTI*/
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+h2{
+    color: #183D73;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h1{
+    color: #183D73;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+
+
+/*NAV BAR*/
+
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+    margin-inline: auto;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    box-sizing: content-box;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+    nav{
+        font-size: 10px;
+    }
+}
+
+
+
+.nav_bar{
+    display: inline;
+    vertical-align:middle;
+    margin-inline: 10px;
+}
+
+.nav_bar img{
+    width: 50px;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: #183D73;
+    font-weight: bold;
+}
+
+
+/*HEADER*/
+
+header{
+    width: 100%;
+}
+
+#team_photo{
+    width: 100%;
+    height: 250px;
+}
+
+
+#team_photo a{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 270px;
+    left: 10px;
+}
+
+
+#instagram{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#facebook{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+
+/*MAIN*/
+
+#classifica{
+    width: 400px;
+    height: 100%;
+}
+
+#widget{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#risultati{
+    width: 30%;
+    height: 500px;
+}
+
+#marcatori{
+    width: 30%;
+    height: 700px;
+}
+
+
+.div_iframe{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 600px)
+{
+    nav{
+        font-size: 10px;
+    }
+
+    #classifica{
+        width: 90%;
+        height: 100%;
+        margin-inline: 20px;
+    }
+
+    #team_photo{
+        width: 90%;
+        height: 250px;
+        margin-inline: 20px;
+    }
+
+    #risultati{
+        width: 90%;
+        height: 550px;
+        margin-inline: 20px;
+    }
+
+    #marcatori{
+        width: 90%;
+        height: 750px;
+        margin-inline: 20px;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+
+    #classifica{
+        width: 90%;
+        height: 100%;
+        margin-inline: 30px;
+    }
+
+    #team_photo{
+        width: 90%;
+        height: 250px;
+        margin-inline: 30px;
+    }
+
+    #risultati{
+        width: 90%;
+        height: 550px;
+        margin-inline: 30px;
+    }
+
+    #marcatori{
+        width: 90%;
+        height: 750px;
+        margin-inline: 30px;
+    }
+}
+
