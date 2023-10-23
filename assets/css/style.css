@@ -78,27 +78,6 @@ header{
 }
 
 
-#team_photo a{
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    top: 270px;
-    left: 10px;
-}
-
-
-#instagram{
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-}
-
-#facebook{
-    width: 32px;
-    height: 32px;
-    margin-bottom: 10px;
-}
-
 
 /*MAIN*/
 
@@ -187,6 +166,10 @@ address a{
     margin-bottom: 40px;
 }
 
+#last_match{
+    width: 100%;
+}
+
 @media screen and (max-width: 600px)
 {
     nav{
@@ -200,6 +183,12 @@ address a{
     }
 
     #team_photo{
+        width: 90%;
+        height: 250px;
+        margin-inline: 20px;
+    }
+
+    #last_match{
         width: 90%;
         height: 250px;
         margin-inline: 20px;
@@ -219,7 +208,7 @@ address a{
     }
 
     .card{
-        width: 40%;
+        width: 20%;
     }
 }
 
@@ -233,6 +222,12 @@ address a{
     }
 
     #team_photo{
+        width: 90%;
+        height: 250px;
+        margin-inline: 30px;
+    }
+
+    #last_match{
         width: 90%;
         height: 250px;
         margin-inline: 30px;
