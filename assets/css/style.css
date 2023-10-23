@@ -131,6 +131,62 @@ header{
     margin-right: 30px;
 }
 
+
+footer{
+    text-align: center;
+    border-top: 2px solid #9A9A9A;
+    height: 100px;
+    margin-top: 150px;
+}
+
+address p{
+    margin: 0;
+}
+
+address{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+address a{
+    text-decoration: none;
+    color: #183D73;
+}
+
+#allCard{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 13%;
+    /* height: 360px; */
+    background-color: #183D73;
+    /* background-image: url("../img/giocatore.jpg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #183D73;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card p{
+    color: white;
+    margin-top: 5px;
+}
+
+#serieD{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 @media screen and (max-width: 600px)
 {
     nav{
@@ -160,6 +216,10 @@ header{
         height: 750px;
         margin-inline: 20px;
         margin-top: 90px;
+    }
+
+    .card{
+        width: 40%;
     }
 }
 

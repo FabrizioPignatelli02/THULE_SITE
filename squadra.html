@@ -24,5 +24,191 @@
           <a href="contatti.html">CONTATTI</a>
       </nav>
       <hr>
+      <main>
+        <h1 id="serieD">SERIE D FEMMINILE</h1>
+        <div id="allCard">
+        </div>
+      </main>
+      <footer>
+        <p>Copyright Fabrizio Pignatelli</p>
+        <address>
+          Contatti: <br>
+          <p>Mail: <a href="mailto:fabriziopignatelli26@gmail.com">fabriziopignatelli26@gmail.com</a></p>
+          <p>Cellulare: +39 3936433189</p>
+        </address>
+      </footer>
+      <script>
+        const thule = [
+          {
+            name: "Valentina",
+            cognome: "Primi",
+            eta: "XX",
+            ruolo: "POR",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Ambra",
+            cognome: "Torrioni",
+            eta: "XX",
+            ruolo: "POR",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Stefania",
+            cognome: "Bracalente",
+            eta: "XX",
+            ruolo: "DIF",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Roberta",
+            cognome: "Friggi",
+            eta: "XX",
+            ruolo: "DIF",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Giulia",
+            cognome: "Varletta",
+            eta: "XX",
+            ruolo: "DIF",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Elisa",
+            cognome: "Alario",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Chiara",
+            cognome: "Bonsignori",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Marzia",
+            cognome: "Cappelloni",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Chiara",
+            cognome: "Lombardi",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Simona",
+            cognome: "Maiola",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Sara",
+            cognome: "Maurizi",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Elizabeth",
+            cognome: "Palmi",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Federica",
+            cognome: "Piccoli",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Irene",
+            cognome: "Proietti Cesarini",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Amanda",
+            cognome: "Randuzzi",
+            eta: "XX",
+            ruolo: "CEN",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Giulia",
+            cognome: "D'Apote",
+            eta: "XX",
+            ruolo: "ATT",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Alessandra",
+            cognome: "Mandato",
+            eta: "XX",
+            ruolo: "ATT",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Romina",
+            cognome: "Pacitti",
+            eta: "XX",
+            ruolo: "ATT",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Jessica",
+            cognome: "Pollini",
+            eta: "XX",
+            ruolo: "ATT",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Elena Sofia",
+            cognome: "Rossi",
+            eta: "XX",
+            ruolo: "ATT",
+            img: "./assets/img/giocatore.jpg"
+          },
+          {
+            name: "Beatrice",
+            cognome: "Tonnicchi",
+            eta: "XX",
+            ruolo: "ATT",
+            img: "./assets/img/giocatore.jpg"
+          }
+        ];
+
+        console.log(thule);
+
+        const mainDiv = document.getElementById("allCard");
+
+        for(let i=0; i<thule.length; i++)
+        {
+          const br = document.createElement("br");
+          const card = document.createElement("div");
+          card.classList.add("card");
+          const img = document.createElement("img");
+          img.src = thule[i].img;
+          const p =document.createElement("p");
+          p.innerText="Nome: "+thule[i].name+"\n"+" Cognome: "+thule[i].cognome+"\n"+" Età: "+thule[i].eta+"\n"+ " Ruolo: "+thule[i].ruolo;
+          card.appendChild(img);
+          card.appendChild(p);
+          mainDiv.appendChild(card);
+        }
+
+        
+
+
+      </script>
   </body>
 </html>
